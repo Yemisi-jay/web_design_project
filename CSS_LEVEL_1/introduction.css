@@ -1,0 +1,19 @@
+/*
+selected tag {
+    property:value
+}
+*/
+.firstDiv{
+    color:red;
+}
+
+.secondDiv{
+    color:blue;
+}
+.thirdDiv{
+    color:green;
+}
+
+#search {
+    color:cyan;
+}

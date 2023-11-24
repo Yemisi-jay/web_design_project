@@ -1,0 +1,20 @@
+/* selected tag {
+    property : value
+} */
+
+#hire {
+    color:blue;
+    border-color: red;
+    border-width: thick;
+    border-style: solid;
+    text-align: center;
+}
+
+table{
+    color:red;
+}
+
+table thead{
+    color: blue;
+    font-weight: bold;
+}

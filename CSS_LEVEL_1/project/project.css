@@ -1,0 +1,77 @@
+/*selected tag{
+    property : value
+}
+*/
+
+body {
+    background: url("hotel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signUpBox {
+    background: rgba(44, 62, 80, 0.8);
+    padding: 40px;
+    width: 250px;
+    margin-top: auto;
+    margin: auto;
+}
+
+form{
+    text-align: center;
+    width: 250px;
+    margin-top: -5px;
+}
+
+input{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 0;
+    outline: none;
+    height: 30px;
+    color: white;
+}
+
+/* Working on buttons */
+button {
+    width: 180px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.signIn {
+    color: white;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: cyan;
+}
+
+h2 {
+    color: yellow;
+}
+
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.9;
+}

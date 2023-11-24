@@ -1,0 +1,95 @@
+h4 {
+    color: rgb(28, 154, 180);
+    background-color: rgb(66, 65, 65);
+    height: 60px;
+    font-size: large;
+}
+
+.registration_form {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    padding: 40px;
+    border: 2px solid #ccc;
+    border-color: rgb(21, 70, 135);
+}
+
+h3 {
+    background-color: rgb(21, 70, 135);
+    color: white;
+    font-size: medium;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 250px;
+    flex: 1;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.side ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.form_group {
+    flex: 1;
+    text-align: left;
+}
+
+.form_group label {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.form_group select, .form_group input {
+    flex: 1;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+input {
+    width: 1000px;
+    height: 30px;
+}
+
+
+button {
+    width: 180px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(21, 70, 135);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(240, 110, 58);
+    color: white;
+}
